@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Newsletter</title>
+  </head>
+  <body>
+    <div class="terminal">
+      <div class="menubar">
+        <div class="barcircle-red"></div>
+        <div class="barcircle-yellow"></div>
+        <div class="barcircle-green"></div>
+        <div class="tab">T-S.dev Newsletter</div>
+      </div>
+      <div class="terminalcontent">
+        <pre class="asciiart">
+  .___________.             _______.     _______   _______ ____    ____ 
+  |           |            /       |    |       \ |   ____|\   \  /   / 
+  `---|  |----` ______    |   (----`    |  .--.  ||  |__    \   \/   /  
+      |  |     |______|    \   \        |  |  |  ||   __|    \      /   
+      |  |             .----)   |    __ |  '--'  ||  |____    \    /    
+      |__|             |_______/    (__)|_______/ |_______|    \__/     
+                                                                      
+
+        </pre>
+        <p class="flex">
+          <span class="timecode">[22-02-2000:07:16] </span>Join our Newsletter
+          for the Lastest Updates in the Tech Community
+        </p>
+        <p class="flex">
+          <span class="timecode">[22-02-2000:07:16] </span>Stay ahead of the
+          curve with our exclusive newsletter. Receive timely updates, insider
+          tips, and special offers directly in your inbox. Subscribe now to
+          ensure you never miss out on the latest news and exclusive content
+          tailored just for you. Sign up today and be part of our growing
+          community!
+        </p>
+        <div class="flex">
+          <p>
+            <span class="timecode">[22-02-2000:07:16] </span>Press ENTER to sign
+            up for the newsletter...
+          </p>
+          <button class="openbutton" data-modal-open autofocus>☑︎</button>
+        </div>
+      </div>
+    </div>
+    <dialog data-modal class="modal">
+      <form action="">
+        <p>Please provide the following information:</p>
+        <div class="formline">
+          <label for="fname">First name:</label>
+          <input type="text" id="fname" name="fname" />
+        </div>
+        <div class="formline">
+          <label for="lname">Last name:</label>
+          <input type="text" id="lname" name="lname" />
+        </div>
+        <div class="formline">
+          <label for="email">Email:</label>
+          <input type="text" id="email" name="email" />
+        </div>
+        <input class="modalbutton" type="submit" value="Submit" />
+        <button data-modal-close class="modalbutton" formmethod="dialog">
+          Close
+        </button>
+      </form>
+    </dialog>
+
+    <script src="index.js"></script>
+  </body>
+</html>

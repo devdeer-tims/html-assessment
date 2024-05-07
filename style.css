@@ -1,0 +1,96 @@
+body {
+  font-family: 'JetBrainsMono Nerd Font';
+  background-color: darkgrey;
+}
+
+p,
+label {
+  line-height: 1.4em;
+  margin: 0;
+}
+
+input {
+  display: block;
+}
+
+.terminal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: lightgrey;
+  border: 2px solid;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+  height: 500px;
+}
+
+.menubar {
+  display: flex;
+  gap: 5px;
+  height: 2em;
+}
+
+.terminalcontent {
+  padding-bottom: 5px;
+}
+
+.asciiart {
+  width: 100px;
+}
+
+.barcircle-red {
+  background-color: red;
+  transform: translate(25%, 25%);
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+}
+
+.barcircle-yellow {
+  background-color: yellow;
+  transform: translate(25%, 25%);
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+}
+.barcircle-green {
+  background-color: green;
+  transform: translate(25%, 25%);
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+}
+
+.tab {
+  padding: 2px 20px;
+  border-bottom: solid green;
+}
+
+.timecode {
+  color: darkorange;
+}
+
+.openbutton {
+  background-color: lightgrey;
+  border: 2px solid;
+}
+
+.modalbutton {
+  background-color: lightgrey;
+  border: 2px solid;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.flex {
+  display: flex;
+  gap: 5px;
+}
+
+.formline {
+  padding: 5px 0;
+}
